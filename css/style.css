@@ -1,0 +1,78 @@
+html {
+	width: 100%;
+	overflow-x: hidden;
+}
+#wrapper {
+	width: 100%;
+	background: black;
+	height: 60px;
+	color: #fff;
+	font-size: 3rem;
+	font-family: 'Emblema One', cursive;
+	padding-left: 20px;
+}
+#wrapper > img {
+	width: 50px;
+	float: right;
+	padding-right: 40px;
+	padding-top: 5px;
+	cursor: pointer;
+}
+
+.przedmiot img {
+	height: 100px;
+	vertical-align: middle;
+}
+.przedmiot {
+	border: 1px solid black;
+	margin: 5px 10px;
+	padding: 10px;
+}
+#szablon_przedmiotu {
+	display: none;
+}
+#szablon_przedmiotu_koszyka {
+	display: none;
+}
+#koszyk {
+	width: 500px;
+	border: 1px solid black;
+	right: 50px;
+	position: fixed;
+	background: black;
+	color: white;
+	display: none;
+	padding: 10px 10px;
+}
+#koszyk img {
+	height: 50px;
+	background: black;
+	vertical-align: middle;
+}
+.nazwa {
+	font-family: 'Emblema One', cursive;
+	font-size: 1.5rem;
+}
+.cena {
+	margin-left: 20px;
+	font-family: 'Laila', serif;
+	font-weight: bold;
+}
+.opis {
+	font-family: 'Laila', serif;
+}
+.dodaj, .zmien {
+	font-family: 'Laila', serif;
+	background-color: black;
+	color: #fff;
+	width: 160px;
+	text-align: center;
+	font-weight: bold;
+}
+.liczba, #suma {
+	font-family: 'Laila', serif;
+}
+#koszyk > button {
+	font-family: 'Laila', serif;
+	color: black;
+}

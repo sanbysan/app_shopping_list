@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<!--
+Author: Sandra Morawska
+Email: sandra.morawska@gmail.com
+-->
+	<head>
+		<title>Shopping list</title>
+		<meta charset="UTF-8">
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link href="https://fonts.googleapis.com/css?family=Emblema+One" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet"> 
+	</head>
+	<body>
+		<div id="wrapper">SUPERSAM<img src="img/cart_icon.png"></div>
+		<div id="koszyk">
+			<div id="suma"></div>
+			<button>Empty cart</button>
+		</div>
+		<div id="szablon_przedmiotu_koszyka" class="przedmiot_z_koszyka">
+			<span class="nazwa">Nazwa</span>
+			<span class="opis">Opis</span><p></p>
+			<span class="liczba"></span>
+			<span class="cena"></span>
+			<img src="img/pinterest.png" alt="Pinterest">
+		</div>
+		<div id="przedmioty"></div>
+		<div id="szablon_przedmiotu" class="przedmiot">
+			<span class="nazwa">Nazwa</span><p></p>
+			<span class="opis">Opis</span><p></p>
+			<img src="img/butter.png" alt="Butter">
+			<span class="cena"></span><p></p>
+			<div class="dodaj">Add</div>
+			<div class="zmien" style="display:none">In your cart: 
+				<span class="w_koszyku">1</span>
+				<span class="plus">+</span>
+				<span class="minus">-</span>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>
